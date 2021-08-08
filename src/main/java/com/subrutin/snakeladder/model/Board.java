@@ -13,6 +13,12 @@ public class Board {
 		this.cells = cells;
 		this.players = players;
 	}
+	
+	
+	public int getSnakeAndLadderPos(int cellPosition) {
+		return cells[cellPosition];
+		
+	}
 
 	public int[] getCells() {
 		return cells;
